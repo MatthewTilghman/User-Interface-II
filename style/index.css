@@ -47,7 +47,7 @@ table {
 
 *{
     box-sizing: border-box;
-    background-color: rgba(119, 136, 153, 0.007);
+    background-color: rgb(37, 40, 43);
 }
 html{
     font-size: 62.5%;
@@ -60,7 +60,7 @@ a, button {
     text-decoration: none;
 }
 header{
-    height:80vh;
+    height:77vh;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -68,9 +68,9 @@ header{
     align-items:center;
     background-image: url('../images/washingdc.jpg');
     background-size:cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: top;
     border-radius: 5px;
+    border: solid 2px rgba(245, 245, 245, 0.308);
     text-align:center;
 }
 .headercontainer{
@@ -84,7 +84,7 @@ header{
     font-size: 4rem;
     font-weight: bold;
     margin: 2% 0 0 1.5%;
-    color: lightslategray;
+    color: whitesmoke;
 }
 
 .navlinks {
@@ -95,7 +95,7 @@ header{
     margin: 2.5% 1.5% 0 60%;
 }
 .navlinks a{
-    color: lightslategray;
+    color: whitesmoke;
     background: rgba(8, 123, 185, 0.452);
     padding: 5px 15px;
     margin: 0 2.5% 5% 0;
@@ -104,7 +104,7 @@ header{
     transition: .25s;
 }
 .navlinks a:hover {
-    color:whitesmoke;
+    color:black;
     background-color: lightslategray;
     border: 1.5px solid rgba(0, 0, 0, 0.5);
 }
@@ -112,7 +112,11 @@ h1{
     font-family: 'Quicksand', sans-serif;
     font-size: 9rem;
     text-align: center;
-    color: rgba(48, 60, 71, 0.986);
+    color: rgba(227, 239, 250, 0.623);
+    background-color: rgba(119, 136, 153, 0);
+}
+.cta{
+    background-color: rgba(119, 136, 153, 0);
 }
 .Projects{
     width: 25%;
@@ -141,7 +145,7 @@ h1{
     border-radius: 20px;
 }
 .footernav {
-    background-color: rgb(8, 123, 185);
+    background-color: rgba(8, 123, 185, 0.315);
     width: 100%;
     text-align: center;
     padding: 2.5% 0 2.5% 0;
