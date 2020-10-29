@@ -1,1 +1,160 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+    background-color: rgba(119, 136, 153, 0.007);
+}
+html{
+    font-size: 62.5%;
+}
+a, button {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+}
+header{
+    height:80vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 10%;
+    align-items:center;
+    background-image: url('../images/washingdc.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 5px;
+    text-align:center;
+}
+.headercontainer{
+    width: 100%;
+    display: flex;
+}
+.myname{
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 2% 0 0 1.5%;
+    color: lightslategray;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-bottom: 2%;
+    margin: 2.5% 0 0 60%;
+}
+.navlinks a{
+    color: lightslategray;
+    background: rgba(8, 123, 185, 0.452);
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: .25s;
+}
+.navlinks a:hover {
+    color:whitesmoke;
+    background-color: lightslategray;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 9rem;
+    text-align: center;
+    color: rgba(48, 60, 71, 0.986);
+}
+.Projects{
+    border-radius: 10px;
+    margin-top: 5%;
+    background-color: whitesmoke;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.Projects:hover{
+    color:lightslategray;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.box{
+    width: 25%;
+    height: auto;
+    margin: 5% 0 5% 0;
+    border-radius: 20px;
+}
+.footernav {
+    background-color: rgb(8, 123, 185);
+    width: 100%;
+    text-align: center;
+    padding: 2.5% 0 2.5% 0;
+}
+.Contactme{
+    border-radius: 10px;
+    width: 110px;
+    height: 50px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.Contactme:hover{
+    color:lightslategray;
+}
+p{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    color: lightslategray;
+}
