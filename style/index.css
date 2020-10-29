@@ -76,6 +76,7 @@ header{
 .headercontainer{
     width: 100%;
     display: flex;
+    flex-direction: row;
 }
 .myname{
     width: 100%;
@@ -91,19 +92,21 @@ header{
     justify-content: space-around;
     flex-direction: row;
     padding-bottom: 2%;
-    margin: 2.5% 0 0 60%;
+    margin: 2.5% 1.5% 0 60%;
 }
 .navlinks a{
     color: lightslategray;
     background: rgba(8, 123, 185, 0.452);
     padding: 5px 15px;
-    border-radius: 10px;
+    margin: 0 2.5% 5% 0;
+    border-radius: 7.5px;
+    border: 1px solid lightslategray;
     transition: .25s;
 }
 .navlinks a:hover {
     color:whitesmoke;
     background-color: lightslategray;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1.5px solid rgba(0, 0, 0, 0.5);
 }
 h1{
     font-family: 'Quicksand', sans-serif;
@@ -112,6 +115,8 @@ h1{
     color: rgba(48, 60, 71, 0.986);
 }
 .Projects{
+    width: 25%;
+    height: 35px;
     border-radius: 10px;
     margin-top: 5%;
     background-color: whitesmoke;
@@ -132,7 +137,7 @@ h1{
 .box{
     width: 25%;
     height: auto;
-    margin: 5% 0 5% 0;
+    margin: 5% 0 2.5% 0;
     border-radius: 20px;
 }
 .footernav {
@@ -143,8 +148,8 @@ h1{
 }
 .Contactme{
     border-radius: 10px;
-    width: 110px;
-    height: 50px;
+    width: 7.5%;
+    height: 35px;
     background-color: whitesmoke;
     cursor: pointer;
 }
@@ -155,6 +160,6 @@ p{
     font-size: 20px;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-    margin-bottom: 50px;
+    margin: 5%;
     color: lightslategray;
 }
